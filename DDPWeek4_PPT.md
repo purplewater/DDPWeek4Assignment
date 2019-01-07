@@ -1,0 +1,56 @@
+---
+title: "Shiny App -- Dallas Police Call"
+author: Miao Wang
+date: 1/4/2019
+output: 
+  ioslides_presentation: 
+    keep_md: yes
+    smaller: yes
+    widescreen: yes
+---
+
+
+
+## Introduction
+
+This is an RStudio shiny application developed as a part of final project in the Developing Data Products course in Coursera Data Science Specialization track. The application summarizes Dallas Active Police Call for January, 2019.
+
+This is a filter tool for categorize the calls based on region and priority type. 
+
+**First Objective for this assignment: to create a Shiny Application**
+
+* The file is available at a Github:
+* The APP can be found at: https://purplewater.shinyapps.io/DDPWeek4Assignment/
+     + Form of input used: select box
+     + Using DT to control the dynamic filter
+
+**Second Objective for this assignment: to create a R Presentation**
+
+* The presentation is available at Rpubs:
+
+
+## Data
+
+The latest data is pulled from the site:https://www.dallasopendata.com/Public-Safety/Dallas-Police-Active-Calls/9fxf-t2tr 
+
+Contents       | Details
+---------------| ----------------------------------------------------------------
+Incident Number| Master incident number as it relates to the call 
+Division       | The Largest of the police geographic areas ( 7 patrol divisions)
+Nature of call | Problem type of call, for example loud music, burglary.etc.
+Priority       | Calls are broken down to priority type 1-4,.. 1 being most urgent
+Date/Time      | Date and time of the call
+Location       | Street name of address for call
+Status         | Status of the call as it relates to the responding officers
+
+
+## APP Interface
+
+The screenshot of the Dallas Active Police Call interface:
+
+<img src="screenshot.jpg" width="1000px" />
+
+## ...
+
+<img src="Thank.jpg" width="1000px" />
+
